@@ -1,0 +1,36 @@
+---
+-Phishing Mail with Threat !!
+---
+From: Apple ID <security@appleid-lock.com>
+Subject: Urgent: Your Apple ID has been locked
+
+Dear Customer,
+
+We’ve noticed suspicious activity on your Apple ID. Your account has been temporarily locked.
+
+To restore your access, please verify your account:
+
+[Verify Account Now]
+
+If we don’t hear from you within 24 hours, your account will be permanently suspended.
+
+Thank you,
+Apple Security
+---
+-Phishng Mail With No Threat !!
+---
+Subject: Invoice Confirmation - YourCompany Inc.
+
+Dear John,
+
+Thank you for your recent purchase with YourCompany Inc.
+
+Attached is a copy of your invoice for order #12345, dated August 5, 2025.  
+If you have any questions, feel free to reply to this email or contact our support team at support@yourcompany.com.
+
+We appreciate your business and hope to serve you again soon!
+
+Best regards,  
+Customer Support  
+YourCompany Inc.  
+https://www.yourcompany.com
