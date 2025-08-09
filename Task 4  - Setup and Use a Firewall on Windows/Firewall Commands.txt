@@ -1,1 +1,28 @@
+Linux (UFW) Firewall Configuration - Commands:
 
+sudo ufw enable
+sudo ufw status
+sudo ufw status numbered
+sudo ufw deny 23
+sudo ufw allow 22
+sudo ufw delete deny 23
+sudo ufw disable
+sudo ufw reset
+
+
+Windows Firewall - Command Line Steps:
+
+1. Enable Telnet Client (in CMD as Administrator):
+dism /online /Enable-Feature /FeatureName:TelnetClient
+
+2. Test Port 23 (Telnet) Connection:
+telnet localhost 23
+
+3. Block Port 23 (Using Windows Command Prompt or PowerShell as Admin):
+netsh advfirewall firewall add rule name="Block Telnet Port 23" dir=in action=block protocol=TCP localport=23
+
+4. Verify Rule Exists:
+netsh advfirewall firewall show rule name=all | findstr "Block Telnet Port 23"
+
+5. Delete the Rule After Testing:
+netsh advfirewall firewall delete rule name="Block Telnet Port 23"
